@@ -1,0 +1,123 @@
+
+
+.was1{
+       width: 52%;
+    display: flex;
+    justify-content: flex-start;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.iit2{
+    width: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    top: 28px;
+    right: 140px;
+}
+.iit1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iit2 img{
+    width: 100%;
+     border-radius: 20px;
+     height: 400px;
+     border-radius: 10px;
+    
+}
+.iit2 img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.iit4{
+    width: 494px;
+    height: 110px;
+    display: flex;
+    align-items: flex-end;
+    line-height: 25px;
+}
+.iit1 {
+    height: 53px;
+    display: flex;
+    align-items: flex-end;
+    gap: 13px;
+}
+.iit p{
+    color: #222222;
+
+}
+.iit2 img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.dat p{
+    font-family: "Courgette", cursive;
+    font-size: 34px;
+    line-height: 1.2;
+    color: #d61c22;
+     z-index: 9999;
+}
+.dat h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 8px;
+    line-height: 1.2;
+    color: #000000;
+     z-index: 9999;
+}
+.dat1{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    height: 130px;
+    gap: 44px;
+    width: 683px;
+    font-family: Montserrat
+}
+.dat2{
+    border: 1px solid #a5a5a5;
+    padding: 15px;
+    width: 230px;
+    height: 19px;
+    border-radius: 11px;
+    font-size: 14px;
+}
+.dat3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    color: #545454;
+    letter-spacing: 1px;
+
+}
+.dat4 button{
+    width: 130px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: none;
+    border-radius: 7px;
+}
+.iit3{
+    width: 100%;
+    height: 720px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(../../Assets/123.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

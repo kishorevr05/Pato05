@@ -1,0 +1,80 @@
+.fo4 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 630px;
+    align-items: center;
+
+}
+
+.fo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    text-align: left; 
+    margin: 10px;
+    width: 380px;
+
+}
+.fo1{
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+.fo1 img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.fo1 img {
+    width: 100%;
+    border-radius: 10px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.fo2 {
+    width: 100%; 
+}
+
+.fo2 h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #333333;
+    letter-spacing: 1px;
+    margin: 15px 0 10px 0;
+}
+.fo2 h3:hover{
+    color: red;
+}
+
+.fo2 p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height:22px;
+    color: #666666;
+}
+
+.fo3 {
+    gap: 15px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+    height: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+.fo3:hover{
+    color: red;
+}
+.fo3 p{
+    color: #666666
+}
+.fo3 p:hover{
+    color: red;
+}

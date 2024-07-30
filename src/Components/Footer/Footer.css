@@ -1,0 +1,151 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+    color: #ddd;
+    padding: 46px;
+    height: 340px;
+    gap: 115px;
+  }
+  .fot{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 60px;
+  }
+  .fot2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    font-family: Montserrat;
+  }
+  .fot1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+.fot1 h2{
+    margin-bottom: 20px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.fot3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 24px;
+    font-family: Montserrat;
+}
+.fot4{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    width: 377px;
+}
+.fot4 h2{
+    margin-bottom: 20px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.fot8{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.fot9{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3px;
+}
+.fot10{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 5px;
+}
+.fot10{
+    color: red;
+}
+.fot8 h2{
+    margin-bottom: 20px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.fot7{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+
+}
+.fot11{
+    font-size: 15px;
+    height: 27px;
+    display: flex;
+}
+.eat h2{
+    margin-bottom: 20px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.eat{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.eat1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+.eat2{
+    display: flex;
+    gap: 10px;
+}
+.eat2 img{
+    width: 95px;
+}
+.up2 p{
+    background-color: red;
+    opacity: 85%;
+    transform: rotate(90deg);
+    position: relative;
+    top: 170px;
+    width: 381px;
+    right: 169px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

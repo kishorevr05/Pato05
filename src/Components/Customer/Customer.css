@@ -1,0 +1,85 @@
+.upp{
+    width: 100%;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 4px;
+}
+.upp p{
+    font-family: "Courgette", cursive;
+    font-size: 34px;
+    line-height: 1.2;
+    color: #d61c22;
+     z-index: 9999;
+}
+.upp h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 8px;
+    line-height: 1.2;
+    color: #000000;
+     z-index: 9999;
+}
+.cus {
+    width: 100%;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+}
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .Swiper1 {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-button-next,
+.swiper-button-prev {
+  color: rgb(240, 240, 240);
+}
+.cus img{
+    width: 100px;
+    height: 100px;
+    border: 4px solid red;
+    border-radius: 64px;
+}
+.cus p{
+    color: #666666;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-family: Montserrat;
+}
+.cus1{
+    color: red;
+    font-size: 23px;
+}
+.cus2 p{
+    font-family: Montserrat;
+    font-size: 14px;
+}
+  

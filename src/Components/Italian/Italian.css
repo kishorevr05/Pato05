@@ -1,0 +1,77 @@
+.it3{
+    width: 100%;
+    height: 630px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.it{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 335px;
+}
+.was{
+    width: 38%;
+    display: flex;
+    justify-content: flex-end;
+}
+.it h2{
+    font-family: "Courgette", cursive;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #d61c22;
+}
+.it h1{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-top: 10px;
+}
+.it2{
+    width: 26%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+
+    position: relative;
+    justify-content: center;
+}
+.it1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.it2 img{
+    width: 100%;
+     border-radius: 20px;
+     height: 400px;
+     object-fit: cover;
+}
+.it4{
+    width: 494px;
+    height: 110px;
+    display: flex;
+    align-items: flex-end;
+    line-height: 25px;
+}
+.it1 {
+    height: 53px;
+    display: flex;
+    align-items: flex-end;
+    gap: 13px;
+}
+.it p{
+    color: #222222;
+
+}
+.it2 img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}

@@ -1,0 +1,256 @@
+.men{
+    width: 100%;
+    height: 1170px;
+    background-image: url(../../Assets/12.webp);
+}
+.men1{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 4px;
+}
+.men1 p{
+    font-family: "Courgette", cursive;
+    font-size: 34px;
+    line-height: 1.2;
+    color: #d61c22;
+     z-index: 9999;
+}
+.men1 h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 8px;
+    line-height: 1.2;
+    color: #000000;
+     z-index: 9999;
+}
+.men2{
+    height: 565px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 30px;
+}
+.men3{
+    display: flex;
+    gap: 30px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+.men4{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+.ki1{
+    width: 380px;
+    height: 490px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.ki2{
+    width: 380px;
+    height: 490px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.men3 img{
+    width: 380px;
+    height: 490px;
+    border-radius: 10px;
+}
+.men3 img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.men4 img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.men5 img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.ki3{
+    width: 366px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.ki4{
+    width: 366px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.men4 img{
+    width: 366px;
+    border-radius: 10px;
+}
+.men5{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.men6{
+    width: 370px;
+}
+.ki5{
+    width: 790px;
+    height: 231px; 
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.ki6{
+    width: 370px; 
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.men7{
+    width: 790px;
+    height: 231px;
+}
+.men5 img{
+    border-radius: 10px;
+}
+.men8{
+    position: relative;
+    right: 55px;
+    bottom: 540px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    color: black;
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    z-index: 9999;
+    letter-spacing:4px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.men8:hover{
+    background-color: #d61c22;
+    transition: all 0.5s;
+    color: white;
+}
+.men9{
+    position: relative;
+    left: 235px;
+    bottom: 540px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    color: black;
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    z-index: 9999;
+    letter-spacing:4px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.men9:hover{
+    background-color: #d61c22;
+    transition: all 0.5s;
+    color: white;
+}
+.men10{
+    position: relative;
+    left: 500px;
+    bottom: 670px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    color: black;
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    z-index: 9999;
+    letter-spacing:4px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.men10:hover{
+    background-color: #d61c22;
+    transition: all 0.5s;
+    color: white;
+}
+.men11{
+    position: relative;
+    left: 380px;
+    bottom: 414px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    color: black;
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    z-index: 9999;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.men11:hover{
+    background-color: #d61c22;
+    transition: all 0.5s;
+    color: white;
+}
+.men12{
+    position: relative;
+    bottom: 144px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    color: black;
+    width: 152px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    z-index: 9999;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 700;
+    right: 400px;
+}
+.men12:hover{
+    background-color: #d61c22;
+    transition: all 0.5s;
+    color: white;
+}
+.men13{
+    position: relative;
+    bottom: 144px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    color: black;
+    width: 147px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    z-index: 9999;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 700;
+    left: 90px;
+}
+.men13:hover{
+    background-color: #d61c22;
+    transition: all 0.5s;
+    color: white;
+}

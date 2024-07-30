@@ -1,0 +1,42 @@
+.spe{
+    background-image: url(../../Assets//123.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     gap: 20px;
+}
+.spe h3{
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.spe2{
+    border: 1px solid #a5a5a5;
+    padding: 15px;
+    width: 235px;
+    height: 16px;
+    border-radius: 11px;
+    font-size: 14px;
+    font-family: Poppins;
+    letter-spacing: 1px;
+}
+.spe button{
+    width: 140px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: none;
+    border-radius: 7px;
+ 
+}
+.spe3{
+    color: #666666;
+    position: relative;
+    right: 212px;
+    font-size: 18px;
+}

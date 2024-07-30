@@ -1,0 +1,42 @@
+.dis{
+    width: 100%;
+    height: 450px;
+    background-image: url(../../Assets/dis2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dis1{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4px;
+}
+.dis1 p{
+    font-family: "Courgette", cursive;
+    font-size: 34px;
+    line-height: 1.2;
+    color: #d61c22;
+     z-index: 9999;
+}
+.dis1 h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 8px;
+    line-height: 1.2;
+    color: #ffffff;
+     z-index: 9999;
+}
+.dis2{
+   width: 100%;
+   height: 450px;
+   background-color: black;
+   position: relative;
+   bottom : 450px;
+   opacity: 70%;
+}

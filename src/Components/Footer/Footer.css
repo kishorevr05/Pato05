@@ -134,18 +134,4 @@
 .eat2 img{
     width: 95px;
 }
-.up2 p{
-    background-color: red;
-    opacity: 85%;
-    transform: rotate(90deg);
-    position: relative;
-    top: 170px;
-    width: 381px;
-    right: 169px;
-    font-size: 16px;
-    letter-spacing: 1px;
-    height: 42px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+

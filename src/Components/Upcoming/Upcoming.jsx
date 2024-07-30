@@ -69,7 +69,7 @@ const Upcoming = () => {
       <h2>EVENTS</h2>
     </div>
     <div className="up1"data-aos="fade-up">
-      <div className="up2">
+      <div className="up12">
         <p>08:00 PM TUESDAY-21 NOVEMBER 2018</p>
       </div>
       <div className="up3">
@@ -110,7 +110,7 @@ const Upcoming = () => {
       <h2>EVENTS</h2>
     </div>
     <div className="up1"data-aos="fade-up">
-      <div className="up2">
+      <div className="up22">
         <p>08:00 PM TUESDAY-21 NOVEMBER 2018</p>
       </div>
       <div className="up3">

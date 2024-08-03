@@ -121,3 +121,49 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+@media (max-width: 1200px) {
+   .iit3 {
+     height: 1060px;
+      flex-direction: column;
+   }
+   .iit2 {
+     top: 0px;
+     right: 0px;
+   }
+   .iit2 img {
+     width: 95%;
+   }
+   .cus4{
+     height: 410px;
+   }
+   }
+   
+   @media (max-width:600px) {
+    .dat1 {
+        align-items: center;
+        flex-direction: column;
+    }
+    .iit3 {
+        height: 1300px;
+    }
+    .was1 {
+        height: 800px;
+        justify-content: flex-end;
+    }
+    .dat1{
+        gap: 5px;
+    }
+    .iit2 {
+        align-items: center;
+        justify-content: center;
+        width: 375px;
+        height: 675px;
+    }
+    .iit2 img {
+        width: 90%;
+        height: 65%;
+    }
+    .dat h2 {
+        font-size: 26px;
+    }
+   }

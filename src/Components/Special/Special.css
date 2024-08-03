@@ -40,3 +40,8 @@
     right: 212px;
     font-size: 18px;
 }
+@media(max-width:600px){
+    .spe {
+        flex-direction: column;
+    }  
+}

@@ -40,3 +40,8 @@
    bottom : 450px;
    opacity: 70%;
 }
+@media(max-width:600px){
+    .dis1 h2 {
+        font-size: 35px;
+    }
+}

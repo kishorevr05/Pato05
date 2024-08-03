@@ -82,4 +82,10 @@
     font-family: Montserrat;
     font-size: 14px;
 }
+@media(max-width:1200px){
+  .upp {
+    height: 160px;
+    align-items: center;
+}
+}
   

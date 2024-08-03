@@ -254,3 +254,182 @@
     transition: all 0.5s;
     color: white;
 }
+@media (max-width: 1200px) {
+.men3{
+    gap: 1px;
+        display: flex;
+        height: 640px;
+        justify-content: center;
+        align-items: flex-end;
+}
+.men3 img {
+    width: 240px;
+    height: 370px;
+}
+.ki1{
+    height: 504px;
+}
+.ki2{
+    height: 504px;
+}
+.ki3{
+    width: 255px;
+    border-radius: 10px;
+    justify-content: flex-start;
+    height: 186px;
+    align-items: flex-end;
+}
+.ki4{
+    width: 255px;
+    border-radius: 10px;
+    justify-content: flex-start;
+    height: 186px;
+    align-items: flex-end;
+}
+.men4 img {
+    width: 366px;
+    height: 195px;
+}
+.men4 {
+    gap: 20px;
+    width: 400px;
+    height: 371px;
+    display: flex;
+    justify-content: flex-end;
+}
+.ki5 {
+    width: 710px;
+    bottom: 60px;
+}
+.ki6 {
+    bottom: 57px;
+    right: 17px;
+}
+.men7 {
+    width: 495px;
+}
+.men6 {
+    width: 253px;
+    height: 235px;
+}
+.men2 {
+    gap: 15px;
+    margin-top: 0px;
+}
+.men8 {
+
+    left: 10px;
+}
+.men9 {
+
+    left: 140px;
+}
+.men10 {
+
+    left: 290px;
+    bottom: 645px;
+}
+.men11 {
+    left: 155px;
+    bottom: 455px;
+}
+.men12 {
+    bottom: 210px;
+    right: 375px;
+}
+.men13 {
+    bottom: 255px;
+    left: 250px;
+}
+
+.men {
+    height: 1125px;
+}
+}
+
+@media (max-width: 600px) {
+    .men3, .men4, .men5 {
+        flex-direction: column;
+        gap: 25px; 
+    }
+    .men4{
+        flex-direction: column;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    .men5 {
+        flex-direction: column;
+        gap: 10px; 
+        /* display: none; */
+    }
+    .men3 img {
+        width: 300px;
+        height: 156px;
+    }
+    .men4 img {
+        height: 145px;
+    }
+    .men7 {
+        width: 43%;
+        height: 180px;
+    }
+    .men6{
+        width: 81%;
+        height: 180px;
+    }
+    .men2{
+        flex-direction: column;
+    }
+    .ki5{
+        bottom: 25px;
+        left: 0px;
+    }
+    .men {
+        height: 1200px;
+    }
+    .ki6 {
+        bottom: 50px;
+        left: 3px;
+    }
+    .ki3{
+        width: 300px;
+        height: 1100px;
+    }
+    .ki4{
+        width: 300px;
+        height: 390px;
+        display: none;
+    }
+    .men1 h2 {
+        font-size: 30px;
+    }
+    .men1 {
+        justify-content: center;
+    }
+    .men8 {
+        left: 115px;
+        bottom: 945px;
+    }
+    .men9 {
+        left: 1px;
+        bottom: 750px;
+    }
+    .men10 {
+        left: -117px;
+        bottom: 575px;
+    }
+    .men11 {
+        left: 85px;
+        bottom: 440px;
+    }
+    .men12 {
+       display: none;
+    }
+    .men13 {
+        left: -65px;
+        bottom: 220px;
+    }
+}
+

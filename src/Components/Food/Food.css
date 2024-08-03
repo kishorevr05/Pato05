@@ -1,11 +1,10 @@
+/* Default styles (desktop view) */
 .fo4 {
-    height: 100%;
     display: flex;
     justify-content: center;
     gap: 20px;
     height: 630px;
     align-items: center;
-
 }
 
 .fo {
@@ -15,14 +14,15 @@
     text-align: left; 
     margin: 10px;
     width: 380px;
-
 }
-.fo1{
+
+.fo1 {
     overflow: hidden;
     position: relative;
     border-radius: 10px;
 }
-.fo1 img:hover{
+
+.fo1 img:hover {
     transform: scale(1.1);
     transition: 0.5s;
 }
@@ -46,7 +46,8 @@
     letter-spacing: 1px;
     margin: 15px 0 10px 0;
 }
-.fo2 h3:hover{
+
+.fo2 h3:hover {
     color: red;
 }
 
@@ -54,7 +55,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 15px;
-    line-height:22px;
+    line-height: 22px;
     color: #666666;
 }
 
@@ -69,12 +70,40 @@
     display: flex;
     align-items: flex-end;
 }
-.fo3:hover{
+
+.fo3:hover {
     color: red;
 }
-.fo3 p{
-    color: #666666
+
+.fo3 p {
+    color: #666666;
 }
-.fo3 p:hover{
+
+.fo3 p:hover {
     color: red;
+}
+
+@media (max-width: 1200px) {
+    .fo4 {
+        align-items: center;
+    }
+    
+    .fo {
+        width: 100%;
+        max-width: 600px;
+    }
+    .fo2 h3{
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 600px) {
+    .fo4 {
+        flex-direction: column;
+        height: 1500px;
+    }
+    .fo {
+       width: 310px;
+    }
+
 }

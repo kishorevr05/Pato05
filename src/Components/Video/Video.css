@@ -55,3 +55,27 @@
 .vid3 :hover{
     color: red;
 }
+@media(max-width:1200px){
+.vid{
+    height: 600px;
+}
+.vid1{
+    height: 500px;
+    justify-content: flex-end;
+}
+.vid2{
+    height: 548px;
+}
+
+}
+@media(max-width:600px){
+    .vid1 h2 {
+        font-size: 37px;
+    }
+    .vid1 {
+        height: 485px;
+    }
+    .vid2 {
+        height: 566px;
+    }
+}

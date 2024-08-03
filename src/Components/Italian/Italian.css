@@ -75,3 +75,51 @@
     transform: scale(1.1);
     transition: 0.5s;
 }
+@media (max-width: 1200px) {
+    .was{
+      width: 50%;
+      justify-content: center;
+    }
+    .it{
+        width: 70%;
+        align-items: center;
+        justify-content: center;
+    }
+    .it h2{
+        font-size: 26px;
+    }
+    .it h1{
+        font-size: 50px;
+    }
+    .it4 {
+        width: 414px;
+        height: 90px;
+    }
+    .it2 {
+        width: 41%;
+    }
+  }
+  
+  
+  @media (max-width: 600px) {
+    .it3 {
+        height: 690px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .it {
+        width: 500px;
+    }
+    .it4 {
+        width: 329px;
+        height: 90px;
+        font-size: 12px;
+    }
+    .it2 {
+        width: 80%;
+    }
+    .it2 img{
+        height: 290px;
+    }
+  
+  }

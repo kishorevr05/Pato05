@@ -319,27 +319,33 @@
 .men8 {
 
     left: 10px;
+    display: none;
 }
 .men9 {
 
     left: 140px;
+    display: none;
 }
 .men10 {
 
     left: 290px;
     bottom: 645px;
+    display: none;
 }
 .men11 {
     left: 155px;
     bottom: 455px;
+    display: none;
 }
 .men12 {
     bottom: 210px;
     right: 375px;
+    display: none;
 }
 .men13 {
     bottom: 255px;
     left: 250px;
+    display: none;
 }
 
 .men {
@@ -430,6 +436,7 @@
     .men13 {
         left: -65px;
         bottom: 220px;
+
     }
 }
 

@@ -250,23 +250,19 @@
 }
 }
 
-@media (max-width:1200px) {
+@media (max-width:600px) {
 .up1{
   flex-direction: column;
 }
 .customSlide {
   height: 1000px;
 }
-.up2{
 
-}
 .up3 {
   width: 360px;
   left: 1px;
 }
-.up4{
 
-}
 .up2 {
   width: 361px;
 }
